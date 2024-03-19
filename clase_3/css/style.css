@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+@font-face {
+  font-family: "Catboo";
+  src: url("../fonts/Catboo.ttf");
+}
+
+@font-face {
+  font-family: "SuperOcean";
+  src: url("../fonts/SuperOcean.ttf");
+}
+
+:root {
+  --blue: #0677f1;
+  --black: #33383d;
+  --gray: #e2e6e9;
+  --red: #d33343;
+  --white: #f5f5f5;
+  --primary-font: "Catboo";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--red);
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+  font-family: "Staatliches", sans-serif;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.bg-black {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
